@@ -1,0 +1,9 @@
+<%= form_for @user do |f| %>
+  <%= f.label :name, 'Your Name' %>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :age, 'Your Age' %>
+  <%= f.text_field :age %>
+  <br>
+  <%= f.submit %>
+<% end %>
